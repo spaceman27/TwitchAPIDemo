@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="jsonp.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="div-container">
+    <div class="div-header">
+      <div class="search-gadget">
+        <input name="searchText" value="starcraft" placeholder="Search Query.." />
+        <input type="button" value="Search" onclick="getResult()">
+      </div>
+    </div>
+    <div class="div-body">
+      <span style="display:inline-block">Total Result: <span id="total"></span> </span>
+      <span style="display:inline-block;float:right"> 
+           <a href="javascript:void(0);" style="text-decoration:none" onclick="previous()"> < </a> 
+           <span id="cp">1</span>/<span id="tp">10</span>
+      <a href="javascript:void(0);" style="text-decoration:none" onclick="next()"> > </a>
+      </span>
+      <div id="content">
+        <!-- sample content structure  -->
+        <p>
+          <span class="cl-left">
+          <img src="http://static-cdn.jtvnw.net/jtv_user_pictures/wintergaming-profile_image-d9a487100601b69b-300x300.jpeg"/>
+          </span>
+          <span class="cl-right"> 
+          <span><b>Display Name</b></span>
+          <br>
+          <span>Game Name - viewer</span>
+          <br>
+          <span>Inheritance is the process by which properties are passed from parent to child elements even though those properties have not been explicitly defined by other means. Certain properties are inherited automatically, and as the name implies, a child element will take on the characteristics of its parent with regards to these properties.</span>
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

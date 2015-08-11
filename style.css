@@ -1,0 +1,38 @@
+.div-header{
+  border: 1px #ccc solid;
+  width: 100%;
+  height: 50px;
+  position:relative;
+  padding: 5px;
+}
+.div-body{
+  margin-top: -1px;
+  border: 1px #ccc solid;
+  width: 100%;
+  padding: 5px;
+  overflow:auto;
+}
+.search-gadget{
+  line-height: 10px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translate(0, -50%)
+}
+img {
+  width:100px;
+  height:100px;
+}
+p span{
+  display:inline-block;
+  float:left;
+}
+.cl-left{
+  width: 120px;
+}
+.cl-right{
+  width: 70%;
+}
+p {
+  overflow:auto;
+}
